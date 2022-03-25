@@ -1,0 +1,3 @@
+{"time":"2020-04-30 06:51:58","level":"info","body":{"request":{"uid":10},"source":"app.js","message":"this is main message"}}
+{"time":"4/30/2020, 12:36:22 PM","level":"info","body":{"message":"::1 - - [30/Apr/2020:07:06:22 +0000] \"GET /api/posts HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.24.1\"\n"}}
+{"time":"4/30/2020, 12:52:16 PM","level":"info","body":{"request":{"uid":10},"source":"app.js","message":"this is main message"}}

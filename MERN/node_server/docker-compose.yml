@@ -1,0 +1,20 @@
+version: '3'
+services:
+    db:
+        container_name: mongo-db
+        image: mongo
+        ports:
+            - 27017:27017
+    nodes:
+        container_name: node-server
+        build:
+            context: ./
+            dockerfile: Dockerfile
+        image: node:alpine
+        ports:
+            - 8090:8090
+        network_mode: host
+        depends_on:
+            - db
+        volumes:
+            - ./:/src/project

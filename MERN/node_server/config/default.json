@@ -1,0 +1,6 @@
+{
+    "mongoDB": {
+        "url":"mongodb://localhost:27017/mydb"
+    },
+    "jwt_secret":"THIS IS MY JWT SECRET KEY"
+}

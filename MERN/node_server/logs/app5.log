@@ -1,0 +1,5 @@
+{"time":"2020-04-29 17:58:36","level":"info","message":{"message1":"Hi rahul","request":{"uid":10},"source":"app.js"}}
+{"time":"2020-04-29 18:00:44","level":"info","message":{"message":"ok........"}}
+{"time":"2020-04-29 18:09:50","level":"info","message":{"message2":"ok........","message1":"Hi rahul","message":"this is main message"}}
+{"time":"2020-04-30 06:34:44","level":"info","body":{"request":{"uid":10},"source":"app.js","message":"this is main message"}}
+{"time":"2020-04-30 06:42:58","level":"info","body":{"request":{"uid":10},"source":"app.js","message":"this is main message"}}
